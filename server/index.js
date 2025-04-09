@@ -14,6 +14,8 @@ const db= mysql.createPool({
 });
 
 
+
+
 app.use(cors());
 app.use(express.json());
 app.use(bodyParser.urlencoded({extended:true}));
